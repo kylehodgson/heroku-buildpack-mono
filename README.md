@@ -15,7 +15,7 @@ Additional details and guides:
 
 Example usage:
 
-    $ heroku create --buildpack http://github.com/friism/heroku-buildpack-mono.git
+    $ heroku create --buildpack https://github.com/kylehodgson/heroku-buildpack-mono.git 
     $ git push heroku master
 
 The buildpack will detect your app as ASP.NET if it has the file `global.asax` in the root or at one directory depth or as .NET if it has a `.sln` file.
